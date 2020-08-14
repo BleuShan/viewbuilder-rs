@@ -1,2 +1,2 @@
 # viewbuilder-rs
-Experimenting with ui view rendering in rust
+An experiment with ui view rendering in rust

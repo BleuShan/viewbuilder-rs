@@ -1,0 +1,14 @@
+[package]
+authors     = ["Philippe Lafontaine <lafontaine.philippe@gmail.com>"]
+description = """"
+An experiment with ui view rendering in rust
+"""
+edition     = "2018"
+license     = "MIT"
+name        = "viewbuilder"
+readme      = "../README.md"
+repository  = "https://github.com/BleuShan/viewbuilder-rs"
+version     = "0.1.0"
+
+[dependencies]
+viewbuilder-core = { path = "../viewbuilder-core", version = "*" }
