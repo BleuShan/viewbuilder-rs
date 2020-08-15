@@ -9,6 +9,7 @@
     unreachable_pub
 )]
 
+pub mod layout;
 pub mod prelude;
 pub mod view;
 

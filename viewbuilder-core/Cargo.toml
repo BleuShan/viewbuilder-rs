@@ -7,3 +7,4 @@ repository = "https://github.com/BleuShan/viewbuilder-rs.git"
 version    = "0.1.0"
 
 [dependencies]
+nalgebra = "0.21.1"

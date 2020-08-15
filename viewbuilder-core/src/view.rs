@@ -1,4 +1,4 @@
-//! Core view abstractions.
+//! The core view abstractions.
 
 use crate::prelude::*;
 
