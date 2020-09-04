@@ -8,6 +8,7 @@
     rust_2018_idioms,
     unreachable_pub
 )]
+#![feature(never_type, format_args_capture)]
 
 pub mod layout;
 pub mod prelude;
