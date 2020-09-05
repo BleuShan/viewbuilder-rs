@@ -13,5 +13,7 @@
 )]
 
 pub mod prelude;
-
-pub use viewbuilder_core::View;
+pub use viewbuilder_core::{
+    operations,
+    View,
+};

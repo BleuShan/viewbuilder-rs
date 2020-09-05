@@ -8,9 +8,3 @@ version    = "0.1.0"
 
 [dependencies]
 derive_more = "0.99.9"
-nalgebra    = "0.22.0"
-num-traits  = "0.2.12"
-
-    [dependencies.simba]
-    features = ["packed_simd"]
-    version  = "0.2.0"

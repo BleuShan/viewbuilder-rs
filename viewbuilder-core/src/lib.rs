@@ -9,8 +9,14 @@
     unreachable_pub
 )]
 #![feature(never_type, format_args_capture)]
+#![doc(test(
+    no_crate_inject,
+    attr(forbid(future_incompatible)),
+    attr(warn(nonstandard_style, rust_2018_idioms)),
+    attr(feature(never_type, format_args_capture))
+))]
 
-pub mod layout;
+pub mod operations;
 pub mod prelude;
 pub mod view;
 
