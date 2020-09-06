@@ -38,5 +38,8 @@ pub(crate) use std::{
     str::FromStr,
 };
 
-/// An alias for the () type. Used to get a more uniform syntax.
+/// An alias for the `()` type. Used to get a more uniform syntax.
 pub type Unit = ();
+
+/// An alias for Send + Sync
+pub trait SendSync = Send + Sync;

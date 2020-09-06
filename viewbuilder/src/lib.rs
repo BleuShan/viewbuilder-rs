@@ -1,8 +1,3 @@
-//! An experiment in rendering ui views.
-//!
-//! This project is a study the implementation of a declarative
-//! user interface runtime.
-
 #![forbid(future_incompatible)]
 #![warn(
     missing_docs,
@@ -11,6 +6,15 @@
     rust_2018_idioms,
     unreachable_pub
 )]
+#![feature(
+    never_type,
+    format_args_capture,
+    unboxed_closures,
+    fn_traits,
+    trait_alias,
+    external_doc
+)]
+#![doc(include = "../../README.md")]
 
 pub mod prelude;
 pub use viewbuilder_core::{
