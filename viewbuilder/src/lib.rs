@@ -14,6 +14,6 @@
 
 pub mod prelude;
 pub use viewbuilder_core::{
-    operations,
+    transform,
     View,
 };

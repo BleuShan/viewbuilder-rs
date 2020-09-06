@@ -1,4 +1,4 @@
-//! The core operations traits
+//! The core transform operations traits
 
 /// A Transform operation.
 ///
@@ -6,7 +6,7 @@
 /// An application for this trait a basic arithmetic operation like addition would look like the
 /// following:
 /// ```
-/// use viewbuilder_core::operations::*;
+/// use viewbuilder_core::transform::*;
 ///
 /// #[repr(transparent)]
 /// #[derive(Debug)]
@@ -58,7 +58,7 @@ where
 /// The intended use of this trait is to establish the relationship between a transform and its
 /// inverse. An implementation for addition and substraction this would look like:
 /// ```
-/// use viewbuilder_core::operations::*;
+/// use viewbuilder_core::transform::*;
 ///
 /// #[repr(transparent)]
 /// #[derive(Debug)]
@@ -137,7 +137,7 @@ where
 /// [`Transform::apply`] operation. For addition and substraction this would
 /// look like:
 /// ```
-/// use viewbuilder_core::operations::*;
+/// use viewbuilder_core::transform::*;
 ///
 /// #[repr(transparent)]
 /// #[derive(Debug)]

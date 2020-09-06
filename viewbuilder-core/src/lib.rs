@@ -16,8 +16,8 @@
     attr(feature(never_type, format_args_capture))
 ))]
 
-pub mod operations;
 pub mod prelude;
+pub mod transform;
 pub mod view;
 
 pub use view::View;
